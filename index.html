@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Nails Dubai | Official Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --accent: #ff85a2; --dark: #121212; --light: #fdfdfd; --gold: #f1c40f; }
+        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; background: var(--dark); color: white; line-height: 1.6; padding-bottom: 100px; }
+        
+        header { background: #1a1a1a; text-align: center; padding: 20px; border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 1000; }
+        .logo { font-weight: bold; letter-spacing: 3px; color: var(--accent); font-size: 1.4rem; text-transform: uppercase; }
+        
+        .rating-box { text-align: center; margin-top: 5px; font-size: 0.9rem; color: var(--gold); }
+        .rating-box span { color: #888; margin-left: 5px; }
+
+        .container { max-width: 500px; margin: auto; padding: 15px; }
+        .hero-image { width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 20px; }
+
+        .product-info { padding: 10px; }
+        .product-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 10px; color: var(--accent); }
+        .price-tag { font-size: 2rem; font-weight: bold; color: white; margin-bottom: 15px; }
+        .old-price { text-decoration: line-through; color: #666; font-size: 1.2rem; margin-left: 10px; }
+
+        .offer-banner { background: linear-gradient(45deg, #ff85a222, #ff85a211); border: 1px dashed var(--accent); padding: 15px; border-radius: 12px; margin: 20px 0; }
+        .offer-line { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.95rem; }
+        .offer-line i { color: var(--accent); margin-right: 10px; width: 20px; }
+        .gift-tag { background: var(--accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; margin-left: 5px; }
+
+        .section-title { font-size: 1.2rem; color: var(--accent); margin: 30px 0 15px; border-bottom: 1px solid #333; padding-bottom: 5px; }
+
+        .image-gallery { display: flex; overflow-x: auto; gap: 10px; padding-bottom: 15px; scrollbar-width: none; }
+        .image-gallery img { width: 140px; height: 140px; border-radius: 10px; object-fit: cover; border: 1px solid #333; flex-shrink: 0; }
+
+        .trust-section { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin: 25px 0; }
+        .trust-item { background: #1a1a1a; padding: 15px 5px; border-radius: 10px; text-align: center; font-size: 0.7rem; border: 1px solid #333; }
+        .trust-item i { color: var(--accent); font-size: 1.2rem; margin-bottom: 8px; display: block; }
+
+        .review-card { background: #1a1a1a; padding: 15px; border-radius: 12px; margin-bottom: 15px; border-left: 3px solid var(--accent); }
+        .review-header { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.85rem; }
+        .reviewer-name { font-weight: bold; color: var(--accent); }
+        .review-stars { color: var(--gold); font-size: 0.75rem; }
+        .review-text { font-size: 0.85rem; color: #bbb; font-style: italic; }
+
+        .faq-item { background: #1a1a1a; margin-bottom: 10px; border-radius: 8px; border: 1px solid #333; }
+        .faq-question { padding: 15px; cursor: pointer; font-weight: 600; font-size: 0.9rem; display: flex; justify-content: space-between; align-items: center; }
+        .faq-answer { padding: 0 15px 15px; font-size: 0.85rem; color: #999; display: none; }
+
+        .cta-container { position: fixed; bottom: 0; left: 0; right: 0; background: rgba(18, 18, 18, 0.95); padding: 15px; backdrop-filter: blur(10px); border-top: 1px solid #333; z-index: 2000; }
+        .btn-whatsapp { background: #25d366; color: white; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 16px; border-radius: 50px; font-weight: bold; font-size: 1.1rem; box-shadow: 0 5px 20px rgba(37, 211, 102, 0.3); }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Aura Nails Dubai</div>
+    <div class="rating-box">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+        <span>4.4/5 (148 Reviews)</span>
+    </div>
+</header>
+
+<div class="container">
+    <img src="img/2.jpg" class="hero-image">
+
+    <div class="product-info">
+        <div class="product-title">TOUCHBeauty 5-in-1 Electric Nail Care Set</div>
+        <div class="price-tag">99 AED <span class="old-price">119 AED</span></div>
+
+        <div class="offer-banner">
+            <div class="offer-line"><i class="fas fa-truck"></i> <strong>FREE Fast Delivery</strong> (All UAE)</div>
+            <div class="offer-line"><i class="fas fa-wallet"></i> <strong>Cash on Delivery</strong> Available</div>
+            <div class="offer-line">
+                <i class="fas fa-gift"></i> 
+                <strong>Surprise Gift Included!</strong> <span class="gift-tag">FIRST ORDER</span>
+            </div>
+        </div>
+
+        <div class="section-title">Product Gallery</div>
+        <div class="image-gallery">
+            <img src="img/1.jpg">
+            <img src="img/3.jpg">
+            <img src="img/4.jpg">
+            <img src="img/5.jpg">
+            <img src="img/6.jpg">
+        </div>
+
+        <div class="trust-section">
+            <div class="trust-item"><i class="fas fa-shield-alt"></i> 1-Year Warranty</div>
+            <div class="trust-item"><i class="fas fa-undo"></i> 30-Day Returns</div>
+            <div class="trust-item"><i class="fas fa-check-circle"></i> Quality Checked</div>
+        </div>
+
+        <div class="section-title">Customer Reviews</div>
+        
+        <div class="review-card">
+            <div class="review-header"><span class="reviewer-name">Sarah M. (Dubai)</span><span class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></div>
+            <div class="review-text">"Amazing quality! Saves me so much time and money. The UV dryer is a game changer."</div>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header"><span class="reviewer-name">Fatima H. (Ras Al Khaimah)</span><span class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></div>
+            <div class="review-text">"I was hesitant at first, but this tool is literally a lifesaver. No more waiting at salons for hours!"</div>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header"><span class="reviewer-name">Jessica L. (Sharjah)</span><span class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></div>
+            <div class="review-text">"Fast delivery! I received it the next day. The free gift was a lovely touch!"</div>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header"><span class="reviewer-name">Noora A. (Al Ain)</span><span class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></div>
+            <div class="review-text">"Very practical for travel. It fits perfectly in my bag and the quality of the bits is really good."</div>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header"><span class="reviewer-name">Amal K. (Abu Dhabi)</span><span class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span></div>
+            <div class="review-text">"The price is unbeatable compared to professional services. It paid for itself in just two uses!"</div>
+        </div>
+
+        <div class="section-title">Frequently Asked Questions</div>
+        
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">Is it rechargeable or battery-operated? <i class="fas fa-plus"></i></div>
+            <div class="faq-answer">It is cordless and powered by batteries for maximum portability, so you can use it anywhere without searching for a plug.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">How long does shipping take within the UAE? <i class="fas fa-plus"></i></div>
+            <div class="faq-answer">We offer fast delivery! You’ll receive your order within 24 to 48 hours.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">Can I check the product before paying? <i class="fas fa-plus"></i></div>
+            <div class="faq-answer">Absolutely! With our Cash on Delivery service, you can ensure everything is perfect when it reaches your door.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">Is the UV light safe for skin? <i class="fas fa-plus"></i></div>
+            <div class="faq-answer">Yes, the built-in UV light is designed specifically for drying nail polish quickly and safely.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">Does it work on gel nails? <i class="fas fa-plus"></i></div>
+            <div class="faq-answer">Yes, it is designed for natural, gel, and light acrylic nails.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">Can I return it if I'm not satisfied? <i class="fas fa-plus"></i></div>
+            <div class="faq-answer">Absolutely! We offer a 30-day easy return policy if the product doesn't meet your expectations.</div>
+        </div>
+    </div>
+</div>
+
+<div class="cta-container">
+    <a href="https://wa.me/+963983025324?text=Hi Aura Nails! I'd like to order the 5-in-1 set for 99 AED and get my free gift. 🎁" class="btn-whatsapp">
+        <i class="fab fa-whatsapp"></i> ORDER NOW & GET FREE GIFT
+    </a>
+</div>
+
+<script>
+    function toggleFaq(element) {
+        const answer = element.nextElementSibling;
+        const icon = element.querySelector('i');
+        
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            icon.classList.replace('fa-minus', 'fa-plus');
+        } else {
+            document.querySelectorAll('.faq-answer').forEach(el => el.style.display = 'none');
+            document.querySelectorAll('.faq-question i').forEach(el => el.classList.replace('fa-minus', 'fa-plus'));
+            
+            answer.style.display = "block";
+            icon.classList.replace('fa-plus', 'fa-minus');
+        }
+    }
+</script>
+
+</body>
+</html>
